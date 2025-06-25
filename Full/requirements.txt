@@ -1,0 +1,29 @@
+# Core web scraping and automation
+requests>=2.28.0
+beautifulsoup4>=4.11.1
+cloudscraper>=1.2.71
+playwright>=1.37.0
+undetected-chromedriver>=3.5.3
+selenium>=4.10.0
+
+# PDF handling
+PyPDF2>=3.0.1
+reportlab>=3.6.12
+pdf2image>=1.16.3
+
+# OCR and image processing
+pytesseract>=0.3.10
+Pillow>=9.5.0  # Required for pdf2image
+
+# Machine Learning models (LayoutLMv3)
+transformers>=4.31.0
+torch>=2.0.1
+
+# Streamlit UI
+streamlit>=1.25.0
+
+# Other dependencies
+textwrap3>=0.9.2  # Only if not using built-in textwrap (optional)
+
+# Optional Windows-only (for PDF conversion)
+# Make sure poppler is installed and available at the specified path in code
